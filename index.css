@@ -41,7 +41,6 @@ body {
     height: 498px;
 }
 
-
 .block1 h1 {
     width: 330px;
     height: 54px;
@@ -82,7 +81,12 @@ body {
 .bluetext {
     color: rgba(0, 117, 239, 1);
     font-weight: bold; 
+    text-decoration: none;
     margin: 0;
+}
+
+.bluetext:hover {
+    color: rgb(1, 66, 134);
 }
 
 footer {
@@ -100,31 +104,44 @@ footer {
     display: flex;
     align-items: center;
     width: 600px;
-    margin: 20px 0px 20px 0px;
+    margin: 20px 0px;
 }
 
 .line2 {
     display: flex;
     align-items: center;
     width: 600px;
-    margin: 25px 0px 25px 0px;
+    margin: 25px 0px;
 }
 
 .footerbold {
     font-weight: bold; 
 }
 
-.links {
-    display: flex;
-    align-items: center;
-    font-weight: bold; 
-    width: 329px;
-    height: 18px;
-    margin: 0px 50px;
+a.hashtag {
+    color: rgba(0, 117, 239, 1);
 }
 
-a {
-    margin: 0px 10px 0px 10px;
+.links {
+    display: flex;
+    flex-direction: row;
+}
+
+footer a {
+    margin: 0px 35px;
+    display: flex;
+    color: rgba(0, 117, 239, 1);
+    align-items: center;
+    flex-direction: row;
+    width: 329px;
+    height: 18px;
+    text-decoration: none;
+    margin: 0px;
+}
+
+footer a:hover {
+    color: rgb(1, 66, 134);
+    text-decoration: none;
 }
 
 .footergrey {
